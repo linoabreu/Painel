@@ -7,12 +7,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Fortify Guard
+    | Fortify Guard/Fortificar guarda
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which authentication guard Fortify will use while
-    | authenticating users. This value should correspond with one of your
-    | guards that is already present in your "auth" configuration file.
+    | Aqui você pode especificar qual proteção de autenticação o Fortify usará enquanto
+    | autenticação de usuários. Este valor deve corresponder a um de seus
+    | guards que já está presente em seu arquivo de configuração "auth".
     |
     */
 
@@ -23,9 +23,9 @@ return [
     | Fortify Password Broker
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which password broker Fortify can use when a user
-    | is resetting their password. This configured value should match one
-    | of your password brokers setup in your "auth" configuration file.
+    | Aqui você pode especificar qual corretor de senhas o Fortify pode usar quando um usuário
+    | está redefinindo sua senha. Este valor configurado deve corresponder a um
+    | de seus corretores de senha configurados em seu arquivo de configuração "auth".
     |
     */
 
@@ -36,13 +36,13 @@ return [
     | Username / Email
     |--------------------------------------------------------------------------
     |
-    | This value defines which model attribute should be considered as your
-    | application's "username" field. Typically, this might be the email
-    | address of the users but you are free to change this value here.
+    | Este valor define qual atributo de modelo deve ser considerado como seu
+    | campo "nome de usuário" do aplicativo. Normalmente, este pode ser o e-mail
+    | endereço dos usuários, mas você é livre para alterar este valor aqui.
     |
-    | Out of the box, Fortify expects forgot password and reset password
-    | requests to have a field named 'email'. If the application uses
-    | another name for the field you may define it below as needed.
+    | Fora da caixa, Fortify espera senha esquecida e senha redefinida
+    | solicita um campo chamado 'email'. Se o aplicativo usar
+    | outro nome para o campo você pode definir abaixo conforme necessário.
     |
     */
 
@@ -55,9 +55,9 @@ return [
     | Home Path
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the path where users will get redirected during
-    | authentication or password reset when the operations are successful
-    | and the user is authenticated. You are free to change this value.
+    | Aqui você pode configurar o caminho para onde os usuários serão redirecionados durante
+    | autenticação ou redefinição de senha quando as operações são bem-sucedidas
+    | e o usuário é autenticado. Você é livre para alterar este valor.
     |
     */
 
@@ -68,9 +68,9 @@ return [
     | Fortify Routes Prefix / Subdomain
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which prefix Fortify will assign to all the routes
-    | that it registers with the application. If necessary, you may change
-    | subdomain under which all of the Fortify routes will be available.
+    | Aqui você pode especificar qual prefixo o Fortify atribuirá a todas as rotas
+    | que ele registra com o aplicativo. Se necessário, você pode alterar
+    | subdomínio sob o qual todas as rotas do Fortify estarão disponíveis.
     |
     */
 
@@ -83,9 +83,9 @@ return [
     | Fortify Routes Middleware
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which middleware Fortify will assign to the routes
-    | that it registers with the application. If necessary, you may change
-    | these middleware but typically this provided default is preferred.
+    | Aqui você pode especificar qual middleware o Fortify atribuirá às rotas
+    | que ele registra com o aplicativo. Se necessário, você pode alterar
+    | esses middleware, mas normalmente esse padrão fornecido é o preferido.
     |
     */
 
@@ -96,9 +96,9 @@ return [
     | Rate Limiting
     |--------------------------------------------------------------------------
     |
-    | By default, Fortify will throttle logins to five requests per minute for
-    | every email and IP address combination. However, if you would like to
-    | specify a custom rate limiter to call then you may specify it here.
+    | Por padrão, o Fortify limitará os logins a cinco solicitações por minuto para
+    | cada combinação de e-mail e endereço IP. No entanto, se você gostaria de
+    | especificar um limitador de taxa personalizado para chamar, então você pode especificá-lo aqui.
     |
     */
 
@@ -112,9 +112,9 @@ return [
     | Register View Routes
     |--------------------------------------------------------------------------
     |
-    | Here you may specify if the routes returning views should be disabled as
-    | you may not need them when building your own application. This may be
-    | especially true if you're writing a custom single-page application.
+    | Aqui você pode especificar se as rotas que retornam visualizações devem ser desativadas como
+    | você pode não precisar deles ao criar seu próprio aplicativo. isso pode ser
+    | especialmente verdadeiro se você estiver escrevendo um aplicativo personalizado de página única.
     |
     */
 
@@ -125,9 +125,9 @@ return [
     | Features
     |--------------------------------------------------------------------------
     |
-    | Some of the Fortify features are optional. You may disable the features
-    | by removing them from this array. You're free to only remove some of
-    | these features or you can even remove all of these if you need to.
+    | Alguns dos recursos do Fortify são opcionais. Você pode desabilitar os recursos
+    | removendo-os desta matriz. Você é livre para remover apenas alguns dos
+    | esses recursos ou você pode até remover todos eles, se necessário.
     |
     */
 
